@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News API</title>
+  <link rel="shortcut icon" href="./images/icon-news.png" />
+  <link rel="apple-touch-icon" href="./images/icon-news.png" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap-4.5.0/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/api.css">
+
+</head>
+
+<body>
+  <section id="linkHeader">
+    <article>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark linkTags">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse linkTagsContent" id="navbarNavAltMarkup">
+          <div id="latestNews">
+            <div>
+              <i class="fad fa-bullhorn"></i>
+              <h6>Latest News</h6>
+            </div>
+            <p>Journalism that is independent, honest, and dignified</p>
+          </div>
+          <div class="navbar-nav navLink">
+            <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="nav-item nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="nav-item nav-link" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="nav-item nav-link" href="#"><i class="fab fa-tumblr"></i></a>
+            <a class="nav-item nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a class="nav-item nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+      </nav>
+    </article>
+  </section>
+
+  <section id="headings">
+    <article>
+      <div id="logoImg">
+        <img src="./images/25-512.png" alt="logo">
+      </div>
+      <div id="logoTag">
+        <h1>E-NEWSPAPER</h1>
+        <h6>Your right to know. &nbsp A new voice for a new INDIA</h6>
+      </div>
+      <!-- <div id="animatedTag">
+
+          </div> -->
+      <div id="cityTempTag">
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <h5>Live</h5>
+        </div>
+        <i id="liveCity">city</i>
+        <i id="liveTemp">temp</i>
+      </div>
+    </article>
+  </section>
+  <section>
+    <article id="articles">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Corona Details
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link" id="covidBlock"></a>
+              </li>
+            </li>
+          </ul>
+        
+        </div>
+      </nav>
+    </article>
+
+    <article class="container">
+      <div id="articlesContent">
+        <div class="row">
+          <div class="col-md-3">
+            <h6 class="p-2 border-bottom 
+            text-white font-weight-bold bg-primary mt-2 text-uppercase">Sports news</h6>
+
+            <div id="sportsSection">
+              <div id="sportsFirstTemplate"></div>
+              <div id="sportsAllTemplate"></div>
+            </div>
+          </div>
+          <!---sports-->
+
+          <div class="col-md-4 ml-auto">
+            <h6 class="p-2 border-bottom 
+                      text-white font-weight-bold bg-primary mt-2 text-uppercase">Entertainment news</h6>
+
+            <div id="sportsSection">
+              <!-- <div id="entertainmentFirstTemplate"></div> -->
+              <div id="entertainmentAllTemplate"></div>
+            </div>
+          </div>
+          <!---entertainment-->
+
+        </div>
+    </article>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="./bootstrap-4.5.0/js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+  <script src="./js/sportsApi.js"></script>
+  <script src="./js/enterApi.js"></script>
+  <script src="./js/covid19.js"></script>
+</body>
+
+</html>
+
+<!-- A promise is an object that may produce a single value some time in the future : either a resolved value, or a reason that it's not resolved (e.g., a network error occurred). A promise may be in one of 3 possible states: fulfilled, rejected, or pending -->

@@ -1,0 +1,225 @@
+body {
+  background-color: #eee;
+  margin: 0 auto;
+  height: 0;
+  font-family: "Poppins", sans-serif;
+  background-position: bottom;
+  /* background: url("../images/14684.png"); */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* #linkHeader{
+    margin: 25px 0px 0px 0px;
+    padding: 0;
+} */
+#linkHeader article {
+  margin: 0 auto;
+}
+
+/* .linkTags {
+    height: 5vh;
+} */
+
+.linkTagsContent {
+  justify-content: flex-end;
+}
+
+#latestNews {
+  flex: 8;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+#latestNews div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: royalblue;
+  height: 5vh;
+  width: 12%;
+}
+
+#latestNews i {
+  color: white;
+  padding-right: 15px;
+}
+
+#latestNews h6 {
+  color: #fff;
+  margin: 0;
+  font-weight: 900;
+}
+
+#latestNews p {
+  margin: 0;
+  color: #fff;
+  padding-left: 24px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.navLink {
+  padding-right: 5%;
+}
+
+.navLink a {
+  color: aliceblue !important;
+}
+
+#headings {
+  background-image: linear-gradient(to bottom,
+      rgba(58, 59, 70, 0.52),
+      rgba(17, 9, 15, 0.73)),
+    url("../images/heading-back.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#headings article {
+  display: flex;
+}
+
+#logoImg {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#logoImg img {
+  width: 53%;
+}
+
+#logoTag {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#logoTag h1 {
+  font-size: 65px;
+  color: #fff;
+  font-family: auto;
+  font-style: italic;
+  font-weight: 900;
+  /* padding-right: 0%; */
+  /* width: 41%; */
+  margin: 0;
+  /* text-align: center; */
+}
+
+#logoTag h6 {
+  margin: 0;
+  margin-bottom: 5px;
+  /* padding-right: 16%; */
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#cityTempTag {
+  flex: 2;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 4px;
+}
+
+#cityTempTag div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#cityTempTag div i {
+  margin-right: 10px;
+}
+
+#cityTempTag div h5 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#articlesContent img {
+  height: 150px;
+  width: 100%;
+
+}
+
+ul li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 8px;
+  font-size: 14px;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#sportsSection {
+  border-right: 1px solid #ccc;
+  height: 100%;
+  background: #fff;
+  box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+#articlesContent .enterImg {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#articlesContent .row {
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  width: unset;
+}
+
+#entertainmentAllTemplate ul li {
+  border: none;
+}
+
+.text-muted {
+  font-size: 11px;
+  text-transform: capitalize;
+  padding: 0px 8px;
+}
+
+
+
+#covidBlock section {
+  display: flex;
+}
+
+#covidBlock section div {
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 1px #eee;
+  margin: 4px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#covidBlock section div h4 {
+  margin: 4px 10px 4px 0px;
+  padding: 7px;
+}
